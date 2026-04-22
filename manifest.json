@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Ozon Eco Tracker Pro",
+  "version": "1.1",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "*://*.ozon.ru/*",
+    "https://api.climatiq.io/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.ozon.ru/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle" 
+    }
+  ]
+}
