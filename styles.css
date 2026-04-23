@@ -11,8 +11,8 @@
 }
 
 .eco-header {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 700;
     letter-spacing: 0.2px;
     color: #4f5f79;
     margin-bottom: 10px;
@@ -75,15 +75,9 @@
 .eco-co2-number {
     margin-top: 2px;
     font-size: 28px;
-    font-weight: 800;
+    font-weight: 700;
     color: #091e42;
     line-height: 1.05;
-}
-
-.eco-co2-label {
-    margin-top: 4px;
-    font-size: 12px;
-    color: #55709a;
 }
 
 .eco-slider-wrap {
@@ -116,13 +110,9 @@
     border-radius: 12px;
     padding: 10px 12px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-between;
     gap: 10px;
-}
-
-.eco-hero-emoji {
-    font-size: 30px;
-    line-height: 1;
 }
 
 .eco-hero-text {
@@ -134,11 +124,21 @@
 }
 
 .eco-hero-text strong {
-    font-size: 13px;
+    font-size: 18px;
     color: #0f2d56;
+    line-height: 1.2;
 }
 
 .eco-hero-text span {
     font-size: 11px;
     color: #5e7596;
+}
+
+.eco-hero-image {
+    width: 82px;
+    height: 82px;
+    object-fit: contain;
+    align-self: flex-end;
+    margin-right: -2px;
+    margin-bottom: -2px;
 }
